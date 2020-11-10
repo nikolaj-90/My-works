@@ -1,17 +1,9 @@
-.highlighted.super-important {
-    background-color: red;
-}
-
-<<<<<<< HEAD
-.highlighted.super-important {
+.super-important.highlighted {
     background-color: red;
 }
 
 .highlighted,
 .company-data {
-=======
-.highlighted {
->>>>>>> 281226da505f2ccd89e4daf503489eae3e0e00a4
     color: yellow;
 }
 
