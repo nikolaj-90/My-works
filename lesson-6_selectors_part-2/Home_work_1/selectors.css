@@ -10,7 +10,7 @@
             background-color: gray;
         }
         
-        [data-description~="even"] {
+        [data-description*="even"] {
             font-size: 24px;
         }
         
