@@ -18,6 +18,7 @@
             color: green;
         }
         
+        span,
         a [lang|=en] {
             font-size: 28px;
         }
