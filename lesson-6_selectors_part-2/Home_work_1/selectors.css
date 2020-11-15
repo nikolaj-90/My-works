@@ -19,6 +19,6 @@
         }
         
         span,
-        a [lang|=en-] {
+        [lang|=en-us] {
             font-size: 28px;
         }
