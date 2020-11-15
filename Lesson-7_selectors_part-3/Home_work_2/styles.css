@@ -34,7 +34,7 @@ div>p {
     font-size: 25px;
 }
 
-[type="text"]:focus {
+[type="text"] {
     background-color: gray;
 }
 
