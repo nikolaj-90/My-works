@@ -34,7 +34,7 @@ div>p {
     font-size: 25px;
 }
 
-input [type="text"] {
+[type="text"]:focus {
     background-color: gray;
 }
 
@@ -47,6 +47,6 @@ div:nth-of-type(3n)>:last-child {
 }
 
 div:nth-of-type(3n)>p em {
-    background-color: white;
+    color: white;
     font-size: 20px;
 }
