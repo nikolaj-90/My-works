@@ -3,7 +3,7 @@ body {
 }
 
 .rectangle {
-    border: black solid;
+    border: black solid 8px;
     margin: 16px;
     padding: 16px;
     width: 512px;
