@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 5px;
-}
-
 div {
     width: auto;
     height: auto;
