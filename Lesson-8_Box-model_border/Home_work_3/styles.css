@@ -1,38 +1,22 @@
-* {
+.rectangle {
     box-sizing: border-box;
+    border: 2px solid black;
+    margin: 50px;
+    padding: 50px;
 }
 
-
-/*div {
-    border: 2px solid black;
-    margin: 50px;
-    padding: 50px;
-}*/
-
 .rectangle1 {
-    border: 2px solid black;
-    margin: 50px;
-    padding: 50px;
     background-color: blue;
 }
 
 .rectangle2 {
-    border: 2px solid black;
-    margin: 50px;
-    padding: 50px;
     background-color: yellow;
 }
 
 .rectangle3 {
-    border: 2px solid black;
-    margin: 50px;
-    padding: 50px;
     background-color: green;
 }
 
 .rectangle4 {
-    border: 2px solid black;
-    margin: 50px;
-    padding: 50px;
     background-color: pink;
 }
