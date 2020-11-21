@@ -21,7 +21,7 @@ div {
 
 .child {
     background: yellow;
-    position: static;
+    position: absolute;
 }
 
 .tip {
