@@ -15,6 +15,7 @@
                     
                     .nav-item {
                         display: inline;
+                        border: 1px solid darkturquoise;
                         margin-left: 16px;
                         color: white;
                         line-height: 40px;
@@ -28,6 +29,7 @@
                     .head {
                         width: 200px;
                         height: 200px;
+                        margin-top: calc(50% - 100px);
                         background-color: aquamarine;
                     }
                     
