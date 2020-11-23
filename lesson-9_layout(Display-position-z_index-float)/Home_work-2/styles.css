@@ -8,14 +8,14 @@
             
             ul {
                 display: inline;
-                height: 40px;
+                line-height: 40px;
             }
             
             li {
                 display: inline;
+                text-align: center;
                 margin-left: 16px;
                 color: white;
-                line-height: 40px;
             }
             
             main {
