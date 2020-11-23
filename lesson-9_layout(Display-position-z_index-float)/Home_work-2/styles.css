@@ -16,7 +16,7 @@
                     
                     .nav-item {
                         display: inline;
-                        border: 1px solid darkturquoise;
+                        position: static;
                         margin-left: 16px;
                         color: white;
                         line-height: 40px;
