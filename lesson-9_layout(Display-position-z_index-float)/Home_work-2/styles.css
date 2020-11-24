@@ -8,8 +8,9 @@
             
             ul {
                 display: inline;
-                position: relative;
-                left: 16px;
+                position: absolute;
+                margin-top: 0;
+                margin-left: 16px;
                 line-height: 40px;
             }
             
