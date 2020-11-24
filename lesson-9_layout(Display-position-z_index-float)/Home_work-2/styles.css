@@ -10,6 +10,7 @@
                 display: inline;
                 position: absolute;
                 margin-top: 0;
+                padding: 0;
                 margin-left: 16px;
                 line-height: 40px;
             }
