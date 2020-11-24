@@ -11,6 +11,7 @@
                     width: 100%;
                     background-color: darkturquoise;
                     height: 40px;
+                    z-index: 100;
                 }
                 
                 .navigation .nav-item {
