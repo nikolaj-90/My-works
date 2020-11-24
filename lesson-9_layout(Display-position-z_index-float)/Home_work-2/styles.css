@@ -1,83 +1,79 @@
-                * {
-                    padding: 0;
-                    margin: 0;
-                    bottom: 0;
-                }
-                
-                .header {
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    background-color: darkturquoise;
-                    height: 40px;
-                    z-index: 100;
-                }
-                
-                .navigation .nav-item {
-                    position: relative;
-                    display: inline-block;
-                }
-                
-                .nav-item {
-                    color: white;
-                    margin-left: 16px;
-                    line-height: 40px;
-                }
-                
-                main {
-                    height: 5000px;
-                    background-color: beige;
-                }
-                
-                .navigation {
-                    margin-left: 50px;
-                }
-                
-                .head {
-                    position: absolute;
-                    height: 200px;
-                    width: 200px;
-                    background-color: aquamarine;
-                    top: calc(50% - 200px/2);
-                    left: calc(50% - 200px/2);
-                }
-                
-                .ear {
-                    width: 40px;
-                    height: 60px;
-                    background-color: brown;
-                }
-                
-                .ear_right {
-                    position: absolute;
-                    top: -60px;
-                    right: -40px;
-                }
-                
-                .ear_left {
-                    position: absolute;
-                    top: -60px;
-                    left: -40px
-                }
-                
-                .eye {
-                    position: absolute;
-                    border-radius: 50%;
-                    width: 30px;
-                    height: 30px;
-                    background-color: gray;
-                }
-                
-                .eye_right {
-                    position: relative;
-                    top: 80px;
-                    left: 40px;
-                }
-                
-                .eye_left {
-                    position: absolute;
-                    clear: both;
-                    top: 80px;
-                    right: 40px;
-                }
+* {
+    box-sizing: border-box;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    background-color: darkturquoise;
+    z-index: 100;
+}
+
+.navigation {
+    position: relative;
+    left: 40px;
+}
+
+.nav-list {
+    position: absolute;
+    line-height: 40px;
+}
+
+.nav-item {
+    display: inline-block;
+    color: white;
+    margin-left: 16px;
+}
+
+.content {
+    height: 5000px;
+    background-color: beige;
+}
+
+.head {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    top: calc(50% - 200px/2);
+    left: calc(50% - 200px/2);
+}
+
+.ear {
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    background-color: brown;
+}
+
+.ear_right {
+    top: -60px;
+    right: -40px;
+}
+
+.ear_left {
+    top: -60px;
+    left: -40px;
+}
+
+.eye {
+    position: absolute;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+}
+
+.eye_right {
+    top: 80px;
+    right: 40px;
+}
+
+.eye_left {
+    top: 80px;
+    left: 40px;
+}
