@@ -1,26 +1,22 @@
-p {
-    flex-shrink: 0;
-    flex-grow: 1;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .articles-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 100vh;
 }
 
 .article {
     width: 300px;
+    height: auto;
+    background-color: bisque;
     margin: 8px;
     padding: 16px;
-    background-color: bisque;
     flex-shrink: 0;
     flex-grow: 1;
-    flex-wrap: wrap;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
