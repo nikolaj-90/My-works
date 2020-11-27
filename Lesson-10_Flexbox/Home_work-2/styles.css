@@ -5,6 +5,12 @@
 
 h2 {
     margin: 8px;
+    padding: 16px;
+}
+
+p {
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 
 .articles-list {
