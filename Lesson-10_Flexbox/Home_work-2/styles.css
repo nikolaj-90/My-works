@@ -8,11 +8,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 100vh;
 }
 
 .article {
-    width: 300px;
+    width: 250px;
     height: auto;
     background-color: bisque;
     margin: 8px;
