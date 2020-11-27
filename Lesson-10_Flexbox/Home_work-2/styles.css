@@ -5,17 +5,17 @@
 
 .articles-list {
     display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    min-height: 100vh;
+    flex-wrap: wrap;
 }
 
 .article {
     box-sizing: border-box;
+    width: 300px;
     background-color: bisque;
     margin: 8px;
     padding: 16px;
-    min-width: 300px;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 
 .header {
