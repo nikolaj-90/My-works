@@ -5,7 +5,6 @@
     
     .block {
         height: 300px;
-        margin: 8px;
         flex-shrink: 0;
         flex-grow: 1;
     }
