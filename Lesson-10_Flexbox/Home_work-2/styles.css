@@ -12,14 +12,14 @@
     }
     
     .articles-list {
-        width: 100%;
+        width: 110%;
         display: flex;
         flex-wrap: wrap;
     }
     
     .article {
-        flex: 1 1 250px;
-        min-width: 280px;
+        flex: 1 1 300px;
+        min-width: 300px;
         background-color: bisque;
         margin: 8px;
         padding: 16px;
