@@ -1,26 +1,17 @@
-    * {
-        box-sizing: border-box;
-    }
-    
-    body {
-        width: 100%;
-    }
-    
-    .header {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .articles-list {
-        width: 110%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .article {
-        flex: 1 1 300px;
-        min-width: 300px;
-        background-color: bisque;
-        margin: 8px;
-        padding: 16px;
-    }
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    flex: 1 1 300px;
+    width: 300px;
+    background-color: bisque;
+    margin: 8px;
+    padding: 16px;
+}
