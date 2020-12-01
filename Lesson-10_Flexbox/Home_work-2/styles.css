@@ -9,8 +9,9 @@
 }
 
 .article {
-    flex: 1 1 300px;
-    width: 300px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    width: 268px;
     background-color: bisque;
     margin: 8px;
     padding: 16px;
