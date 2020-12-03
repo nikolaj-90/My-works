@@ -10,6 +10,8 @@
     opacity: 0.8;
 }
 
+.menu-button {}
+
 .menu-list {
     position: absolute;
     left: 0;
@@ -35,4 +37,8 @@
 
 .menu-item:hover {
     color: ghostwhite;
+}
+
+.dropdown:hover {
+    opacity: 1;
 }
