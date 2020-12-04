@@ -1,0 +1,15 @@
+.gallery {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.thumb {
+    visibility: visible;
+    margin: 8px;
+    cursor: all-scroll;
+}
+
+.gallery:hover {
+    overflow-x: scroll;
+}
