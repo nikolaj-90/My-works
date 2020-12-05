@@ -1,0 +1,33 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin: 32px;
+}
+
+h1 {
+    word-spacing: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    line-height: 28px;
+}
+
+.technology {
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.translete {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
