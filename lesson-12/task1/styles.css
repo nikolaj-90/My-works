@@ -4,7 +4,7 @@
         }
         
         section {
-            margin: 22px;
+            margin-left: 32px;
         }
         
         h1 {
@@ -12,6 +12,7 @@
             text-transform: uppercase;
             text-align: center;
             font-size: 2em;
+            margin-top: 0;
         }
         
         p {
