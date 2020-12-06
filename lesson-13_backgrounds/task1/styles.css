@@ -1,0 +1,12 @@
+.mountains {
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 32px;
+    background-image: url(nature.png);
+    background-position: center;
+    background-size: cover;
+    font-size: 32px;
+}
