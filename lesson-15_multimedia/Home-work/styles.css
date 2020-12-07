@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -25,7 +30,7 @@ body {
     opacity: 0.5;
     cursor: pointer;
     text-align: center;
-    line-height: 52px;
+    line-height: 50px;
 }
 
 .image-button:hover {
