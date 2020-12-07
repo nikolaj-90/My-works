@@ -16,6 +16,7 @@ body {
 .image {
     position: relative;
     max-width: 100%;
+    max-height: auto;
 }
 
 .image-button {
@@ -30,7 +31,7 @@ body {
     left: calc(50% - 100px);
     opacity: 0.5;
     cursor: pointer;
-    line-height: 50px;
+    line-height: 49px;
     text-align: center;
 }
 
