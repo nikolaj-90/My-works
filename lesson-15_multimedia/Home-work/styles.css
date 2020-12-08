@@ -10,8 +10,6 @@
 }
 
 .image {
-    display: flex;
-    position: relative;
     max-width: 100%;
 }
 
