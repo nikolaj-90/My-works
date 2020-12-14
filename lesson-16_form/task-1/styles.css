@@ -1,4 +1,5 @@
-.form-control {
+.form-control,
+.choose-gender {
     margin: 16px;
 }
 
