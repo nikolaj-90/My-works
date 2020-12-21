@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <form action="#">
+    <form>
         <div class="form-control">
-            <input type="text" name="primaryLanguage " value="HTML" disabled>
+            <input type="text" name="primaryLanguage" value="HTML" disabled>
         </div>
         <div class="form-control">
             <input type="checkbox" name="agree" unchecked>
@@ -28,10 +28,10 @@
             <input type="date" name="birthDate" value="2021-01-02">
         </div>
         <div class="form-control">
-            <input type="datetime-local" name="birthtime" value="2024-10-04T13:02">
+            <input type="datetime-local" name="birthTime" value="2024-10-04T13:02">
         </div>
         <div class="form-control">
-            <input type="email" placeholder="example@domain.com" required>
+            <input type="email" name="email" placeholder="example@domain.com" required>
         </div>
         <div class="form-control">
             <input type="file" name="avatar">
@@ -50,15 +50,15 @@
             <input type="password" name="password" value="secret">
         </div>
         <div class="form-control">
-            <span class="language">
+            <label>
                 <input type="radio" name="language" value="html"> HTML
-            </span>
-            <span class="language">
+            </label>
+            <label>
                 <input type="radio" name="language" value="css"> CSS
-            </span>
-            <span class="language">
+            </label>
+            <label>
                 <input type="radio" name="language" value="javascript"> JavaScript
-            </span>
+            </label>
         </div>
         <div class="form-control">
             <input type="range" name="learningProgress" value="30">
@@ -66,7 +66,7 @@
         <div class="form-control">
             <select name="framework">
             <option value="react">React</option>
-            <option value="jquery">jQuery</option>
+            <option selected value="jquery">jQuery</option>
             <option value="bootstap">Bootstrap</option>
         </select>
         </div>
