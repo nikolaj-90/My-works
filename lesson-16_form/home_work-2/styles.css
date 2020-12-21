@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    margin: 32px;
+}
+
+.form-control,
+.languages {
+    margin: 8px;
+}
+
+.languages {
+    margin: 0;
+}
+
+
+/*.button_submit {
+    margin: 0 8px 8px 8px;  
+}*/
+
+.form_submit {
+    margin: 0 8px 8px 8px;
+}
+
+.form_reset {
+    margin: 0 8px 8px 8px;
+}
